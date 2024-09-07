@@ -1,0 +1,13 @@
+-- Example usage of ScriptHub
+
+local ScriptHub = require(game.ServerScriptService.ScriptHub) -- Adjust the path accordingly
+
+-- Initialize ScriptHub
+ScriptHub:Init()
+
+-- Load a specific script
+local myScript = ScriptHub:LoadScript("Script1")
+
+-- Get a list of available scripts
+local scripts = ScriptHub:GetAvailableScripts()
+print("Available Scripts:", table.concat(scripts, ", "))
