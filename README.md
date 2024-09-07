@@ -4,7 +4,7 @@ Welcome to the **Scripthub Template** repository. This template aims to [Your Ow
 
 ## Links
 
-- **Discord Server**: [Join us on Discord](https://discord.com/invite/WE9UrmyBaw)
+- **Discord Server**: [Join us on Discord](https://discord.com/invite/5a24xYCvWS)
 - **YouTube Channel**: [Visit our YouTube Channel](https://www.youtube.com/@EDSTUDIOS000)
 
 ## Changelog
