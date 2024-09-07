@@ -1,6 +1,6 @@
 # Scripthub template
 
-Welcome to the **Scripthub Template** repository. This template aims to [brief description of the project].
+Welcome to the **Scripthub Template** repository. This template aims to [Your Own Scripthub].
 
 ## Links
 
