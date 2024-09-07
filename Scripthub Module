@@ -1,0 +1,35 @@
+-- ScriptHub ModuleScript
+
+local ScriptHub = {}
+
+-- Example of a script loader function
+function ScriptHub:LoadScript(scriptName)
+    local success, script = pcall(function()
+        return require(scriptName)
+    end)
+    if success then
+        print("Script loaded successfully:", scriptName)
+        return script
+    else
+        warn("Failed to load script:", scriptName)
+        return nil
+    end
+end
+
+-- Example of a function to list available scripts
+function ScriptHub:GetAvailableScripts()
+    local scripts = {
+        "Script1",
+        "Script2",
+        "Script3"
+    }
+    return scripts
+end
+
+-- Example of how to initialize the ScriptHub
+function ScriptHub:Init()
+    print("ScriptHub initialized.")
+end
+
+-- Return the ScriptHub module
+return ScriptHub
