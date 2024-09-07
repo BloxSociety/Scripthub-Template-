@@ -1,6 +1,6 @@
-# Project Title
+# Scripthub template
 
-Welcome to the **Project Title** repository. This project aims to [brief description of the project].
+Welcome to the **Scripthub Template** repository. This template aims to [brief description of the project].
 
 ## Links
 
